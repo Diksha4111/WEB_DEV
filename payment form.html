@@ -5,26 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lecture_3</title>
+    <link rel="stylesheet" href="/style_payment_form.css">
 </head>
 <body>
-    <br>
+    <header>
     <h1><center>Student Fee Payment Form</center></h1>
     <h4 style="text-align: right;">* Required fields</h4>
-    <hr>
-    <form action="">
+    </header>
+    <main>
+        <form action="">
+        <section>
+        <br>
         <h2>User Details</h2> 
         <br>
-        <p>Stdent Name: *<input type="text" name="name" required></p>
-        <p>Student Roll No. : *<input type="number" name="rollno" id="rollno" required></p>
+        <p>Student Name: *<input type="text" placeholder="Student Name" name="name" required></p>
+        <p>Student Rollno. :*<input type="number" placeholder="Student Roll No." name="rollno" id="rollno" required></p>
         <p>Gender: *
         <input type="radio" name="gender" id="male" required>Male
         <input type="radio" name="gender" id="female" readonly>Female </p>
         <p>Date of Birth: *<input type="date" name="dob" id="dob" required></p>
-        <p>Student Email: *<input type="email" name="email" id="email" required></p>
-        <p>Address: <textarea name="address" id="address" cols="50" rows="5"></textarea></p>
+        <p>Student email: *<input type="email" placeholder="Student Email" name="email" id="email" required></p>
+        <p>Address: <textarea name="address" placeholder="Address" id="address" cols="50" rows="5"></textarea></p>
         <br>
         <br>
-        <hr>
+        </section>
+        <hr style="color: white;">
+        <section>
+        <br>
         <h2>Payment Details</h2>
         <br>
         <p>Card Type: * 
@@ -35,13 +42,17 @@
                 <option value="rupay">Rupay</option>
             </select>
         </p>
-        <p>Card Number: *<input type="number" name="cardno" id="cardno" required> </p>
-        <p>CVV: *<input type="password" name="cvv" id="cvv" required></p>
-        <p>Expiry Date: *<input type="date" name="exp_date" id="exp_date" required></p>
+        <p>Card Number: *<input type="number" placeholder="Card number" name="cardno" id="cardno" required> </p>
+        <p>CVV: *<input type="password" placeholder="CVV" name="cvv" id="cvv" required></p>
+        <p>Expiry Date: *<input type="date" placeholder="Expiry Date" name="exp_date" id="exp_date" required></p>
         <br>
         <br>
-        <fieldset><input type="submit" Value="Pay Now"></fieldset>
         <br>
-    </form>
+        <button type="submit" >Pay Now</button>
+        <button type="reset">Reset</button>
+        <br>
+        </section>
+        </form>
+    </main>
 </body>
 </html>
