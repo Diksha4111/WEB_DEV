@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(to left bottom,rgb(236, 240, 7),rgb(151, 240, 7),rgb(136, 236, 22)
+    ,rgb(12, 223, 107),rgb(11, 228, 127),rgb(10, 228, 173),rgb(10, 203, 228),rgb(10, 184, 228),rgb(10, 130, 228));   
+}
+form{
+    background: rgba(116, 113, 113, 0.507);
+    width: 450px;
+    height: 580px;
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 75px,50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+form:hover{
+    background: black
+}
+h1{
+    font-family: Lobster;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+}
+.Email{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 3px,0;
+    margin-top: 60px;    
+}
+.Email input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+}
+.Password{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 3px,0;
+    margin-top: 40px; 
+}
+.Password input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+}
+.B{
+    margin-top: 40px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: linear-gradient(to left bottom,rgb(12, 223, 107),rgb(11, 228, 127),rgb(10, 228, 173),rgb(10, 203, 228),rgb(10, 184, 228));
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.B:hover{
+    color: black;
+    font-size: 18px;
+    background: linear-gradient(to top,grey,rgb(10, 228, 173),rgb(10, 203, 228),rgb(10, 184, 228));
+}
+.signup{
+    color: darkslategray;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 13px;
+}
+a{
+    color: darkslategray;
+    font-size: 15px;
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+}
