@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left,rgb(253, 124, 19),rgb(252, 200, 105));
+    margin: 0px;
+    padding: 0px;
+    font-family: Copse;
+    height: 70vh;
+}
+.navbar{
+    background: rgb(36, 39, 39);
+    display: inline-block;
+    width: 100%;
+    height: 9vh;
+}
+.flag{
+    float: left;
+    margin: 20px;
+    display: block;
+}
+.navbar a {
+    float: left;
+    font-family: Copse;
+    text-align: right;
+    font-size: 16px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: rgb(252, 172, 0);
+}
+.intro h1{
+    color: rgb(36, 39, 39);
+    font-size: 30px;
+    text-decoration: none;
+    transform: translate(25%,120px);
+}
+.cov-vector{
+    float: right;
+    width: 40%;
+}
+.intro p{
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    padding: 50px;
+    transform: translate(0%,120px);
+}
