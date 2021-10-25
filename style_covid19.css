@@ -1,50 +1,53 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
+}
+body{
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Copse;
+}
+.one{
+    background: linear-gradient(to right,rgb(245, 57, 57),rgb(253, 161, 22));
+    height: 100vh;
 }
 .navbar{
     background: rgb(36, 39, 39);
     display: inline-block;
     width: 100%;
     height: 9vh;
-    overflow: auto;
+}
+.flag{
+    float: left;
+    margin: 20px;
+    display: block;
 }
 .navbar a {
     float: left;
     font-family: Copse;
-    text-align: center;
+    text-align: right;
     font-size: 16px;
-    padding-left: 50px;
-    margin: 30px;
-    align-content: center;
+    margin: 25px;
     text-decoration: none;
     color: white;
-    margin-right: 50px;
-    margin-top: 25px;
 }
 .navbar a:hover{
-    color: rgb(150, 247, 131);
+    color: rgb(252, 172, 0);
 }
-.one{
-    min-height: 5vh;
-}
-body{
-    background: white;
-    margin: 0;
-    padding: 0;
-    font-family: Copse;
-}
-.body h1{
+.Covid-19 h1{
+    color: rgb(253, 223, 167);
     font-size: 40px;
-    text-align: center;
-    padding-right: 30%;
-    padding-top: 18%;
+    transform: translate(20%,230px);
 }
-.body h3{
+.Covid-19 h3{
+    color: rgb(255, 220, 143);
     font-size: 25px;
-    text-align: center;
-    padding-right: 30%;
+    transform: translate(20%,230px);
 }
-
+.homeimg{
+    width: 35%;
+    transform: translate(127%,-10%);
+}
 
