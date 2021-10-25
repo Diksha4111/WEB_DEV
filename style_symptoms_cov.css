@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top right,rgb(17, 7, 150),rgb(43, 39, 37));
+    margin: 0px;
+    padding: 0px;
+    font-family: Copse;
+    height: 100vh;
+}
+.navbar{
+    background: rgb(36, 39, 39);
+    display: inline-block;
+    width: 100%;
+    height: 9vh;
+}
+.flag{
+    float: left;
+    margin: 20px;
+    display: block;
+}
+.navbar a {
+    float: left;
+    font-family: Copse;
+    text-align: right;
+    font-size: 16px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: rgb(252, 172, 0);
+}
+.symphead h1{
+    color: rgb(253, 242, 177);
+    font-size: 30px;
+    text-decoration: none;
+    transform: translate(40.5%,50px);
+}
+.coughimg{
+    width: 10%;
+    border-radius: 50%;
+    border: 5px dashed rgb(255, 31, 1);
+    transform: translate(90%,70%);
+}
+.cough{
+    color: rgb(255, 227, 103);
+    font-size: 25px;
+    transform: translate(11%,120px);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.589);
+}
+.feverimg{
+    width: 10.2%;
+    border-radius: 50%;
+    border: 5px dashed rgb(255, 31, 1);
+    transform: translate(300%,-55%);
+}
+.fever{
+    color: rgb(255, 227, 103);
+    font-size: 25px;
+    transform: translate(33%,-65px);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.589);
+}
+.soreimg{
+    width: 10.4%;
+    border-radius: 50%;
+    border: 5px dashed rgb(255, 31, 1);
+    transform: translate(490%,-182%);
+}
+.sore{
+    color: rgb(255, 227, 103);
+    font-size: 25px;
+    transform: translate(50.5%,-250px);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.589);
+}
+.headacheimg{
+    width: 10.4%;
+    border-radius: 50%;
+    border: 5px dashed rgb(255, 31, 1);
+    transform: translate(700%,-301%);
+}
+.headache{
+    color: rgb(255, 227, 103);
+    font-size: 25px;
+    transform: translate(73.5%,-438px);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.589);
+}
