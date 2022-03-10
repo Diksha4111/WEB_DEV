@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        .container{
+            width: 50vh;
+            height: 50vh;
+            background: rgb(253, 253, 253);
+            border-radius: 10px;
+            padding-top: 10vh;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        }
+        .container .box{
+            width: 30vh;
+            height: 40vh;
+            background: #6495ed;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container .box .colourname{
+            color: white;
+            font-style: italic;
+            text-align: center;
+            padding-top: 18vh;
+            font-size: 18px;
+        }
+        button{
+            width: 20vh;
+            height: 10vh;
+            display: block;
+            margin-left:auto ;
+            margin-right: auto;
+            padding: 5px;
+            background: white;
+            box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+            border: none;
+            margin-top: 7vh;
+        }
+        button:hover{
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Javascript example</h1>
+    <h3 style="text-align: center;">Onclick change colour</h3>
+    <div class="container">
+        <div class="box" id="box">
+            <div class="colourname" id="colourname">Cornflowerblue</div>
+        </div>
+    </div>
+    <button type="button" id="button">
+        <i style="font-size:24px" class="fa">&#xf105;</i>
+    </button>
+    
+    <p style="font-size:12px">shadow css is taken from here-->  
+        <a href="https://getcssscan.com/css-box-shadow-examples">https://getcssscan.com/css-box-shadow-examples</a> 
+    </p>
+
+    <script>
+        "use strict";
+            let i=0;
+            let j=0;
+            let colours=['#FF4136','#01FF70','#001f3f','#B10DC9','#6495ed'];
+            let names=["Red","Lime","Navy","Purple","Cornflowerblue"];
+            document.getElementById('button').onclick=function(){
+                document.getElementById('box').style.backgroundColor=colours[i];
+                document.getElementById('colourname').innerHTML=names[j];
+                i=(i+1) % colours.length;
+                j=(j+1) % names.length;
+            }
+    </script>
+</body>
+</html>
