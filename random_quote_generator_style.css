@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31, 28, 28);
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    margin-top: 6vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 4px 3px 0 #131212;
+}
+.container{
+    margin-top: 10vh;
+    background-color: rgb(255, 255, 255);
+    width: 50vh;
+    height: 65vh;
+    border-radius: 15px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: rgb(8, 8, 8) 0px 10px 15px -3px, rgb(12, 11, 11) 0px 4px 6px -2px;
+    padding: 5vh;
+}
+h4{
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: -0.5vh;
+}
+.container .box{
+    background: linear-gradient(to top, rgb(116, 34, 248),rgb(219, 52, 252));
+    width: 40vh;
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    border-radius: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.quote{
+    text-align: center;
+    padding-top:4vh;
+    padding-left: 15px;
+    padding-right: 10px;
+    color: white;
+    font-size: 14px;
+}
+.author{
+    text-align: right;
+    padding: 5vh;
+    padding-top: 10vh;
+    color: white;
+    font-size: 13px;
+}
+.container .box button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width: 17vh;
+    height: 6vh;
+    box-shadow: rgba(28, 29, 29, 0.521) 0px 8px 24px;
+    border-radius: 5px;
+    font: inherit;
+}
