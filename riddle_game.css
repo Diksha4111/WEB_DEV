@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff87;
+    font-family: 'PT Sans Narrow', sans-serif;}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.cont_riddle{
+    background: white;
+    width: 70vh;
+    height: 50vh;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.cont_riddle .box_riddle{
+    background-color: #ffff87;
+    height: 36vh;
+    width: 65vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.cont_riddle .box_riddle p{
+    padding: 5vh;
+}
+.nextbtn{
+    margin-top: 10vh;
+    border: none;
+    margin-left: 40vh;
+    padding: 5x;
+    width: 12vh;
+    height: 5vh;
+    color: white;
+    background: rgb(15, 15, 15);
+}
+.nextbtn:active{
+    transform: translateY(2px);
+    transition: 0.1s;
+}
+.cont_ans{
+    margin-top: 3vh;
+    background: white;
+    width: 70vh;
+    height: 30vh;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;  
+}
+.cont_ans .box_ans{
+    background-color: #ffff87;
+    height: 20vh;
+    width: 65vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+form{
+    padding-top: 5vh;
+}
+.answer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    padding: 10px;
+}
+.ansbtn{
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    width: 15vh;
+    height: 6vh;
+    color: white;
+    background: rgb(15, 15, 15);
+}
+.ansbtn:active{
+    transform: translateY(2px);
+    transition: 0.1s;
+}
